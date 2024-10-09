@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <title>
+            Website Style Guide
+        </title>
+
+        <meta name="description" content="Each page needs a unique description of about 155 characters.">
+        <meta name="keywords" content="Portfolio Website Style guide, website style guide, design portfolio style guide, style guide for graphic design portfolio website">
+
+
+        <!-- Google Fonts -->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Platypi:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" type="text/css" href="all.min.css">
+
+        <!-- Custom Styles-->
+        <link rel="stylesheet" type="text/css" href="styles.css">
+
+
+        
+        
+
+    </head>
+        <body>
+             <header>
+                 <nav>
+                     <ul>
+                         <li>
+                             <a href="#" title="View Denee's Graphic and Web Design Portfolio">
+                            Home Portfolio
+                            </a>
+
+                        </li>
+                        <li>
+                             <a href="#" title="Learn more about Denee' and her work as a web and graphic designer">
+                            About
+                            </a>
+
+                        </li>
+                        <li>
+                            <a href="#" title="View Denee's Graphic and Web Design Resume">
+                            R&eacute;sum&eacute;
+                            </a>
+
+                        </li>
+                        <li>
+                            <a href="#" title="Contact Denee to discuss your next graphic or web design project">
+                            Contact
+                            </a>
+
+                        </li>
+                        <li>
+                            <a class="btn" href="downloads/dweathers-resume.pdf" title="Download Denee's graphic design and web design resume">
+                                <i class="fa-solid fa-file-pdf"></i>&nbsp;PDF&nbsp;R&eacute;sum&eacute;
+                            </a>
+
+                        </li>
+                    </ul>
+                </nav>
+
+        </header> <!--  Main and header start at same line -->
+
+        <main>
+    <h1>Web Page Style Guide <em>This is an h1 element.</em></h1>
+    <p>This page will be used as a web style guide for the site by displaying common page elements here with the default styling shown. <em>This is a paragraph element.</em></p>
+    <article>
+        <header>
+            <h2>What is a Web Style Guide? <em>This is an h2 element.</em></h2>
+            <p>A web style guide is a reference that helps to ensure brand consistency. A complete style guide will establish rules for visual elements of the site, such as typography, brand colors, and page components like buttons and alerts, as well as writing guidelines for voice, tone, etc. This will be a simplified style guide that I will add to as I learn more about building web pages.</p>
+        </header>
+        <section>
+            <h3>Typography <em>This is an h3 element.</em></h3>
+            <h4>Lists <em>This is an h4 element.</em></h4>
+            <h5>Unordered Lists. <em>This is an h5 element.</em></h5>
+            <ul>
+                <li>list Item 1</li>
+                <li>list Item 2</li>
+                <li>list Item 3</li>
+            </ul>
+            <h5>Ordered Lists <em>This is an h5 element.</em></h5>
+            <ol>
+                <li>list Item 1</li>
+                <li>list Item 2</li>
+                <li>list Item 3</li>
+            </ol>
+            <h4>Link States <em>This is an h4 element.</em></h4>
+            <h5>Link <em>This is an h5 element.</em></h5>
+            <p><a href="no-page.html" title="standard link appearance – tis page doesn't exist">A standard link</a> highlights the anchor text of a hyperlink to call attention to it.</p>
+            <h5>Visited Link <em>This is an h5 element.</em></h5>
+            <p><a href="#" title="visited link appearance">A visited link</a> highlights the anchor text of a hyperlink that has been visited to call attention to it.</p>
+            <h5>Hover Link <em>This is an h5 element.</em></h5>
+            <p><a href="#" title="hover link appearance">A hover link</a> highlights the anchor text of a hyperlink that has been hovered over with a mouse to call attention to it. Hover over this link to see the hover state.</p>
+            <h5>Active Link <em>This is an h5 element.</em></h5>
+            <p><a href="#" title="visited link appearance">A visited link</a> highlights the background or text of a hyperlink that has been selected to call attention to it. Click and hold this link to see the active state.</p>
+        </section>
+    </article>
+</main>
+        <footer>
+            <nav>
+                <ul>
+                    <li>
+                        <a class="planning" href="https://go.gliffy.com/go/publish/13832539" title="View the sitemap for this website"> 
+                            <i class="fa-solid fa-sitemap fa-2xl"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="planning" href="#" title="View the mobile wireframe for this website">
+                            <i class="fa-solid fa-mobile fa-2xl"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="planning" href="#" title="View the desktop wireframe for this website">
+                            <i class="fa-solid fa-desktop fa-2xl"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="html5" href="http://validator.w3.org/check?uri=referer" onclick="this.href='http://validator.w3.org/check?uri=' + document.URL" title="View the HTML validator for this website">
+                            <i class="fa-brands fa-html5 fa-2xl"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="css3" href="http://jigsaw.w3.org/css-validator/check/referer" onclick="this.href='http://jigsaw.w3.org/css-validator/validator?uri=' + document.URL" title="View the CSS validator for this website">
+                            <i class="fa-brands fa-css3-alt fa-2xl"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="planning" href="#" title="View the style guide for this website">
+                            <i class="fa-solid fa-swatchbook fa-2xl"></i>
+                        </a>
+                    </li>
+                </ul>
+                <p>
+                    Copywrite &copy; Dene&eacute; Weathers
+
+                </p>
+            </nav>
+
+
+        </footer>
+
+    </body>
+</html>
