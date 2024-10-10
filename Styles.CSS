@@ -1,0 +1,253 @@
+/* CHANGE NOTES
+9.25.24:added initial styles
+
+
+Notes on font usage. Not sure Ill use all these fonts.
+
+
+
+/*Google Fonts
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 800
+
+.dosis-<uniquifier> {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800
+
+.platypi-<uniquifier> {
+  font-family: "Platypi", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+
+/*Variables*/
+
+/*Primary color is dark green
+Secondary color is light green
+Color light is gray color*/
+
+:root{
+  --Color-primary: #519872;
+  --Color-primary-rgb: 81,152,114;
+  --Color-secondary: #3B5249;
+  --Color-secondary-rgb: 59,82,73;
+  --color-light: #D9E1C6;
+  --color-light-rgb: 217, 225, 198;
+  --color-dark: #333;
+  --font-primary: "Dosis", sans-serif;
+  --font-secondary:; "Platypi", serif;
+}
+
+
+/*Global Styles*/
+html, body {
+  box-sizing: border-box;
+  font-size: 18px;
+
+}
+
+
+body{
+  margin:0;
+  background: var(--color-light);
+  font-family: var(--font-secondary);
+
+}
+
+
+
+
+/*Global Typography – tag-level selectors*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-primary);
+}
+h1{
+  font-size: 2rem;
+  margin: 1rem 2rem 2rem 1rem;
+}
+h2{
+  font-size: 1.8rem;
+}
+h3{
+  font-size: 1.6rem;
+}
+h4{
+  font-size: 1.4rem;
+}
+h5{
+
+}
+
+p
+{
+  font-family: var(--font-secondary);
+  line-height: 1.5 rem;
+}
+em{
+  font-size: .75rem;
+  background: var(--Color-primary);
+  color: var(--color-light);
+  padding: .15rem .5rem;
+  border-radius: 1rem;
+}
+
+
+
+
+/*Header and Footer Navigation*/
+
+header nav{
+  background: var(--Color-secondary);
+}
+
+nav ul{
+  padding-left: 0;
+  margin: 0;
+  height:50px;
+  line-height: 50px;
+}
+/* line height is leading basically*/
+
+Nav ul li{
+  display: inline-block;
+  list-style-type: none;
+  width:19%;
+  text-align: center;
+}
+
+footer nav ul li{
+  width: 16%;
+}
+
+nav a{
+  text-decoration:none;
+  display:block;
+}
+
+
+/*Main*/
+
+main{
+  max-width: 960px;
+  margin: 0 auto;
+  background: ;
+  padding: 1rem;
+}
+
+
+
+
+
+
+/*Footer*/
+Footer{
+  color: #fff;
+  background: #3B5249;
+
+}
+footer p{
+  text-align: center;
+}
+
+
+
+
+
+
+
+/*Link States LoVHAte Link, Visited, Hover, Active*/
+
+a{
+  text-decoration: none;
+  color: var(--Color-primary);
+}
+
+a: visited{
+  color: #999;
+}
+
+a:hover{
+  color:#34252F;
+}
+
+a:active{
+  color: #A4B494;
+}
+
+header nav a{
+  color:#D9E1C6;
+}
+
+header nav a: visited{
+  color: #999;
+}
+
+header nav a:hover {
+  color:var(--color-primary);
+}
+
+header nav a:active{
+  color: #A4B494;
+}
+
+
+a.btn{
+  color: var(--Color-secondary);
+ /* Text color*/
+background: var(--color-light)
+}
+
+a.btn: visited{
+  color: #999;
+}
+
+a.btn:hover{
+  color:v#34252F;
+}
+
+a.btn:active{
+  color: #A4B494;
+}
+
+footer a{
+  color: var(--color-secondary);
+}
+
+footer a:visited{
+  color: #999;
+}
+a.html5:hover {
+  color: #f14a29;
+}
+a.css3:hover {
+  color: #29c0ec;
+}
+
+a.planning:hover{
+  color: #238af8;
+}
+
+a.html5:active{
+  color: #F68E79;
+}
+
+a.css3:active{
+  color: #8EDDF5;
+}
+/*Media Queries*/
+
+
+-------
+
+
+*/
